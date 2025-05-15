@@ -1,0 +1,17 @@
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\bin\Debug\Benim_Doktorum.exe.config
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\bin\Debug\Benim_Doktorum.exe
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\bin\Debug\Benim_Doktorum.pdb
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Form1.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Properties.Resources.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.csproj.GenerateResource.cache
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.exe
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.pdb
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Doktor_Girisi.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Kullanici_Girisi.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Kayit_Ekrani.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.Doktor_Kayit_Ekrani.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.RandevuAl.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.FrmRandevularım.resources
+C:\Users\hasan\source\repos\Benim_Doktorum\Benim_Doktorum\obj\Debug\Benim_Doktorum.DoktorRandevuEkrani.resources

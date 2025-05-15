@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D47A5523-9619-4139-8FA2-990025FFD982}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Benim_Doktorum</RootNamespace>
+    <AssemblyName>Benim_Doktorum</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Benim_DoktorumDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet3.cs">
+      <DependentUpon>Benim_DoktorumDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet7.cs">
+      <DependentUpon>Benim_DoktorumDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_DoktorumDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_DoktorumDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Benim_Doktorum_Son_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benim_Doktorum_Son_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorRandevuEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorRandevuEkrani.Designer.cs">
+      <DependentUpon>DoktorRandevuEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor_Girisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor_Girisi.Designer.cs">
+      <DependentUpon>Doktor_Girisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor_Kayit_Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor_Kayit_Ekrani.Designer.cs">
+      <DependentUpon>Doktor_Kayit_Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRandevularım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRandevularım.Designer.cs">
+      <DependentUpon>FrmRandevularım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit_Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit_Ekrani.Designer.cs">
+      <DependentUpon>Kayit_Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici_Girisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici_Girisi.Designer.cs">
+      <DependentUpon>Kullanici_Girisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandevuAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuAl.Designer.cs">
+      <DependentUpon>RandevuAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SonDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DoktorRandevuEkrani.resx">
+      <DependentUpon>DoktorRandevuEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor_Girisi.resx">
+      <DependentUpon>Doktor_Girisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor_Kayit_Ekrani.resx">
+      <DependentUpon>Doktor_Kayit_Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRandevularım.resx">
+      <DependentUpon>FrmRandevularım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit_Ekrani.resx">
+      <DependentUpon>Kayit_Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici_Girisi.resx">
+      <DependentUpon>Kullanici_Girisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RandevuAl.resx">
+      <DependentUpon>RandevuAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Benim_DoktorumDataSet.xsc">
+      <DependentUpon>Benim_DoktorumDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet.xss">
+      <DependentUpon>Benim_DoktorumDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet1.xsc">
+      <DependentUpon>Benim_DoktorumDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet1.xss">
+      <DependentUpon>Benim_DoktorumDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet10.xsc">
+      <DependentUpon>Benim_DoktorumDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet10.xss">
+      <DependentUpon>Benim_DoktorumDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet2.xsc">
+      <DependentUpon>Benim_DoktorumDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet2.xss">
+      <DependentUpon>Benim_DoktorumDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet3.xsc">
+      <DependentUpon>Benim_DoktorumDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet3.xss">
+      <DependentUpon>Benim_DoktorumDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet4.xsc">
+      <DependentUpon>Benim_DoktorumDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet4.xss">
+      <DependentUpon>Benim_DoktorumDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet5.xsc">
+      <DependentUpon>Benim_DoktorumDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet5.xss">
+      <DependentUpon>Benim_DoktorumDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet6.xsc">
+      <DependentUpon>Benim_DoktorumDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet6.xss">
+      <DependentUpon>Benim_DoktorumDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet7.xsc">
+      <DependentUpon>Benim_DoktorumDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet7.xss">
+      <DependentUpon>Benim_DoktorumDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet8.xsc">
+      <DependentUpon>Benim_DoktorumDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet8.xss">
+      <DependentUpon>Benim_DoktorumDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet9.xsc">
+      <DependentUpon>Benim_DoktorumDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_DoktorumDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_DoktorumDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_DoktorumDataSet9.xss">
+      <DependentUpon>Benim_DoktorumDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_Doktorum_Son_DataSet.xsc">
+      <DependentUpon>Benim_Doktorum_Son_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Benim_Doktorum_Son_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Benim_Doktorum_Son_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Benim_Doktorum_Son_DataSet.xss">
+      <DependentUpon>Benim_Doktorum_Son_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet3TableAdapters.Tbl_SehirTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_BolumTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_DoktorTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_HastaneTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_HastaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_SehirTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_sigortaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_UniversiteTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Benim_Doktorum.Benim_DoktorumDataSet7TableAdapters.Tbl_UzmanlikTableAdapter.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SonDataSet.xsc">
+      <DependentUpon>SonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SonDataSet.xss">
+      <DependentUpon>SonDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
